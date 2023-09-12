@@ -78,7 +78,7 @@ function triArea(base, height) {
 }
 console.log(triArea(7, 4));
 
-/*
+/* Problem 5
 Create a function that takes an array containing only numbers and return the first element.
 
 Examples
@@ -96,3 +96,25 @@ function getFirstValue(arr) {
   return result;
 }
 console.log(getFirstValue([1, 2, 3, 4]));
+
+/* Problem 6
+Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+
+Examples
+lessThanOrEqualToZero(5) ➞ false
+
+lessThanOrEqualToZero(0) ➞ true
+
+lessThanOrEqualToZero(-2) ➞ true
+*/
+
+// SOLUTION
+
+function lessThanOrEqualToZero(n) {
+  if (n <= 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(lessThanOrEqualToZero(-2));
