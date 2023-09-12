@@ -77,3 +77,22 @@ function triArea(base, height) {
   return result;
 }
 console.log(triArea(7, 4));
+
+/*
+Create a function that takes an array containing only numbers and return the first element.
+
+Examples
+getFirstValue([1, 2, 3]) ➞ 1
+
+getFirstValue([80, 5, 100]) ➞ 80
+
+getFirstValue([-500, 0, 50]) ➞ -500
+*/
+
+// SOLUTION
+
+function getFirstValue(arr) {
+  const result = arr[0];
+  return result;
+}
+console.log(getFirstValue([1, 2, 3, 4]));
