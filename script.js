@@ -162,3 +162,26 @@ function lessThan100(a, b) {
 }
 
 console.log(lessThan100(22, 15));
+
+/* Problem 9
+Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+Examples
+isSameNum(4, 8) ➞ false
+
+isSameNum(2, 2) ➞  true
+
+isSameNum(2, "2") ➞ false
+*/
+
+// SOLUTION
+
+function isSameNum(a, b) {
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isSameNum(22, 15));
